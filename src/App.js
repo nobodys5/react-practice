@@ -77,14 +77,22 @@ function App() {
                 <div className='questionimg'>
                 <img className='question' src={require('./img/question.PNG')}/>
                 </div>
-                <div className='reset'>
+                <div className='resetbox'>
                   <input type='button' className='reset1'></input>
                 </div>
+                <div>
                 <img className='resetimg' src={require('./img/reset.png')}/>
+                </div>
                 <div className='reset'>
                   <input type='button' className='reset2'></input>
                 </div>
+                <div className='filterbox'>
                   <span className='filtersearch'>필터로 검색</span>
+                </div>
+                <div>
+                <img className='filterimg' src={require('./img/filterobserver.png')}/>
+
+                </div>
               </div>
             </div>
          </div>
@@ -140,6 +148,123 @@ function App() {
           <div>
             <img className='updateicon' src={require('./img/list2.PNG')}/>
           </div>
+          <div className='main-img'>
+            <div>
+              <img className='' src={require('./img/main.png')}/>
+            </div>
+            <div>
+              <img className='' src={require('./img/main2.png')}/>
+            </div>
+            <div>
+
+              <img className='' src={require('./img/main3.png')}/>
+              
+            </div>
+          </div>
+            <div className='pagebutton'>
+              <div className='line-page'>
+                <button type='button'></button>
+              </div>
+              <div className='paging'>
+                <button type='button'>1</button>
+                <button type='button'>2</button>
+                <button type='button'>3</button>
+                <button type='button'>4</button>
+                <button type='button'>5</button>
+                <button type='button'>...</button>
+                <button type='button'>9</button>
+              </div>
+            </div>
+              
+              <div className='bottom-left'>
+                <div className='left-move'>
+                <img className='left-moveimg' src={require('./img/pagemove2.png')}/>
+                </div>
+                <div className='left-button'>
+                  <span>previous</span>
+                </div>
+              </div>
+              <div className='right-button'>
+                <div className='right-page'>
+                  <span>next</span>
+                </div>
+                <div>
+                  <img className='rightmove' src={require('./img/pagemove.png')}/>
+                </div>
+              </div>
+              
+              <div className='footer'>
+                <div className='cat'>
+                    <img className='footer-cat' src={require('./img/cat.png')}/>
+                </div>
+                <div className='footer-bar'>
+                    <button type='button'>1</button>
+                </div>
+              </div>
+
+              <div className='footer2'>
+                <div className='footer-logo'>
+                    <img className='ok-logo' src={require('./img/okkylogo.png')}/>
+                    <h2>All That Developer</h2>
+                    <div>
+                    <img className='facebook' src={require('./img/facebook.png')}/>
+                    </div>
+                    <div>
+                    <img className='youtube' src={require('./img/youtube.png')}/>
+                    </div>
+                    <div>
+                    <img className='email' src={require('./img/email.png')}/>
+                    </div>
+
+                </div>
+              </div>
+              <div className='footer-middle'>
+                <div className='footer-btn'>
+                  <div className='button-one'>
+                  <button>회사소개</button>
+                  </div>
+                  <div className='button-two'>
+                  <button>공지사항</button>
+                  </div>
+                  <div className='button-three'>
+                  <button>FAQ</button>
+                  </div>
+                  <div className='button-four'>
+                  <button>통합 서비스 이용약관</button>
+                  </div>
+                  <div className='button-five'>
+                  <button>개인정보 처리방침</button>
+                  </div>
+                </div>
+              </div>
+
+
+                <div className='footer-text'>
+                <div className='text-one'>
+                <div>상호명:(주)오키코리아|대표명:노상범, 장기진</div>
+                </div>
+                <div className='text-two'>
+                <div>사업자등록번호: 592-87-02037 | 통신판매업신고번호: 제 2022-서울강남-04742호 | 직업정보 제공사업 신고번호: J1200020230009</div>
+                </div>
+                <div className='text-three'>
+                <div>주소: 서울 강남구 봉은사로 303 TGL경복빌딩 502호 (06103) | 고객센터 : jobs@okky.kr (영업시간 평일 10:00~17:00) 주말 · 공휴일 휴무</div>
+                </div>
+                <div className='text-four'>
+                <div>© 2024 (주)오키코리아, Inc. All rights reserved.</div>
+                </div>
+                </div>
+
+                <div className='last-footer'>
+                <div className='sponse'>
+                  <h2>SPONSORED BY</h2>
+                </div>
+                <div>
+                <img className='iname' src={require('./img/inames.png')}/>
+                </div>
+                <div>
+                <img className='ncloud' src={require('./img/ncloud.png')}/>
+                </div>
+                </div>
     </div>
   );
 }
